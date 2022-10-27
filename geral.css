@@ -1,1 +1,11 @@
+.calculadora{
+    background: rgb(8, 187, 23);
+    width: 200px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.calculadora input {
+    background: rgb(232, 248, 4);
+    color: rgb(2, 2, 2);
+}
 
