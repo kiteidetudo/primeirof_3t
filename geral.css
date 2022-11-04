@@ -4,6 +4,8 @@
     padding: 10px;
     border-radius: 25px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .calculadora input {
     background: rgb(217, 231, 22);
@@ -26,4 +28,16 @@
     background: rgb(255, 255, 255);
     color: red;
     cursor: pointer;
+}
+.calcF  {
+    display: none;
+}
+#input-calcF{
+    display: none;
+}
+h3{
+    color: aliceblue;
+}
+#input-calcF:checked + .calculadora  .calcF{
+    display: block;
 }
